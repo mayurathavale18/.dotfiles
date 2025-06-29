@@ -1,0 +1,18 @@
+[window]
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+opacity = 0.85
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 10
+
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[keyboard]
+bindings = [
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
